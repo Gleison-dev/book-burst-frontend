@@ -1,3 +1,5 @@
+import Button from "../Button";
+
 export default function Initial() {
   return (
     <>
@@ -9,6 +11,10 @@ export default function Initial() {
             totalmente gratuita, conheça <br />
             o Book Burst.
           </h1>
+          <div>
+            <Button text="Consultar livros"/>
+            <Button text="Cadastrar livro"/>
+          </div>
         </div>
       </section>
     </>
