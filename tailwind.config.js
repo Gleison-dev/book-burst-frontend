@@ -9,6 +9,9 @@ export default {
         roxo_claro: "#D4C2FC",
         branco: "#F9F5FF",
       },
+      fontFamily: {
+        merriweather: ['Merriweather']
+      }
     },
   },
   plugins: [],
