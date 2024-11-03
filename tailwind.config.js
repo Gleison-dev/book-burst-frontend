@@ -10,7 +10,7 @@ export default {
         branco: "#F9F5FF",
       },
       fontFamily: {
-        merriweather: ['Merriweather']
+        playfair: ['Playfair Display']
       }
     },
   },
