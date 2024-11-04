@@ -1,5 +1,6 @@
 import Button from "../Button";
-import reading_book from "../../assets/reading_book.svg"
+import "./style.css";
+import reading_book from "../../assets/reading_book.svg";
 
 export default function Initial() {
   return (
@@ -13,12 +14,16 @@ export default function Initial() {
             o Book Burst. <br />
           </h1>
           <div className="mt-20">
-            <Button text="Consultar livros"/>
-            <Button text="Cadastrar livro"/>
+            <Button text="Consultar livros" />
+            <Button text="Cadastrar livro" />
           </div>
         </div>
         <div>
-          <img className="w-96" src={reading_book} alt="Imagem de pessoas lendo livro" />
+          <img
+            className="reading_book"
+            src={reading_book}
+            alt="Imagem de pessoas lendo livro"
+          />
         </div>
       </section>
     </>
