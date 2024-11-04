@@ -10,7 +10,8 @@ export default {
         branco: "#F9F5FF",
       },
       fontFamily: {
-        playfair: ['Playfair Display']
+        playfair: ['Playfair Display'],
+        roboto_mono: ['Roboto Mono']
       }
     },
   },
