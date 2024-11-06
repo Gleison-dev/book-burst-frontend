@@ -6,7 +6,7 @@ export default function Circles({ img, alt, text }) {
           <img className="w-36" src={img} alt={alt} />
         </div>
         <div className="mt-5">
-          <p className="text-xl">{text}</p>
+          <p className="text-xl font-roboto_mono">{text}</p>
         </div>
       </div>
     </>
