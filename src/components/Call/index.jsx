@@ -13,7 +13,7 @@ export default function Call() {
               incríveis!
             </h3>
           </div>
-          <div className="mt-14 mr-56">
+          <div className="mt-14 mr-80">
             <Button text="Consultrar livros" />
           </div>
         </div>
@@ -24,7 +24,7 @@ export default function Call() {
               Venha publicar seus livros <br />e faça parte desta comunidade!
             </h3>
           </div>
-          <div className="mt-14 mr-48">
+          <div className="mt-14 mr-80">
             <button className="bg-preto text-white w-52 h-20 rounded-2xl mr-5 font-roboto_mono">
               Cadastrar livro
             </button>
