@@ -6,7 +6,7 @@ import icon_library from "../../assets/icon_library.svg";
 export default function Benefits() {
   return (
     <>
-      <section className="bg-branco mt-40">
+      <section className="bg-branco mt-40 py-40">
         <div className="flex justify-center">
           <h2 className="text-2xl">O que nós te oferecemos:</h2>
         </div>
