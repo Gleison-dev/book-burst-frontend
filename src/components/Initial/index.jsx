@@ -1,6 +1,7 @@
 import Button from "../Button";
 import "./style.css";
 import reading_book from "../../assets/reading_book.svg";
+import { Link } from "react-router-dom";
 
 export default function Initial() {
   return (
@@ -15,7 +16,9 @@ export default function Initial() {
           </h1>
           <div className="mt-20">
             <Button text="Consultar livros" />
-            <Button text="Cadastrar livro" />
+            <Link to="/registerBook">
+              <Button text="Cadastrar livro" />
+            </Link>
           </div>
         </div>
         <div>
