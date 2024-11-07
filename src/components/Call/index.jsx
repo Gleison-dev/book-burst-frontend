@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Button from "../Button";
 import "./style.css";
 
@@ -25,9 +26,11 @@ export default function Call() {
             </h3>
           </div>
           <div className="mt-14 mr-80">
-            <button className="bg-preto text-white w-52 h-20 rounded-2xl mr-5 font-roboto_mono">
-              Cadastrar livro
-            </button>
+            <Link to="/registerBook">
+              <button className="bg-preto text-white w-52 h-20 rounded-2xl mr-5 font-roboto_mono">
+                Cadastrar livro
+              </button>
+            </Link>
           </div>
         </div>
       </section>
